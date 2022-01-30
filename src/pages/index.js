@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from '../components/NavBar';
+import Profile from '../components/Profile';
 import Sidebar from '../components/Sidebar';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
+      <Profile />
     </>
   );
 };
