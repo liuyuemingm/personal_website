@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import About from '../components/About';
 import Navbar from '../components/NavBar';
 import Profile from '../components/Profile';
+import Resume from '../components/Resume';
 import Sidebar from '../components/Sidebar';
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <Profile />
       <About />
+      <Resume />
     </>
   );
 };
