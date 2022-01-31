@@ -32,12 +32,13 @@ max-width:1100px;
 export const NavLogo = styled(LinkR)`
 justify-self: flex-start;
 cursor: pointer;
-font-size: 1.5rem;
+font-size: 2rem;
 display: flex;
 align-items: center;
 margin-left: 24px;
 font-weight: bold;
 text-decoration: none;
+/* font-family: ; */
 `;
 
 export const MobileIcon = styled.div`
