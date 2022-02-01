@@ -46,7 +46,7 @@ transition: 0.2s ease-in-out;
 cursor: pointer;
 
 &:hover {
-  color: #01bf71;
+  color: aliceblue;
   transition: 0.2s ease-in-out;
 }
 `

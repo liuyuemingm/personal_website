@@ -101,10 +101,13 @@ border-radius: 10px;
 border-width: 2px;
 text-decoration: none;
 opacity: 80%;
+transition: 0.3s;
 
 &:hover {
   cursor: pointer;
   opacity: 100%;
+  background: rgba(244, 164, 96, 0.15);
+  transition: 0.3s;
 }
 
 @media screen and (max-width: 500px){

@@ -4,7 +4,7 @@ import { AboutConstainer, MechEContainer, AboutMeContainer, ArtContainer, CompSc
 const About = () => {
   return (
     <>
-      <AboutConstainer>
+      <AboutConstainer id='about' >
         <AboutMeContainer>
           <AboutMe>
             <p style={{ fontSize: "32px", fontWeight: "900" }}>About me</p>

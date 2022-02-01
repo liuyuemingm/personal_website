@@ -3,7 +3,7 @@ import { ProfileConstainer, ImgWrap, Img, TextWrap, InnerTextWrap, BtnContainer,
 
 const Profile = () => {
   return (
-    <ProfileConstainer>
+    <ProfileConstainer id='home'>
       <ImgWrap>
         <Img src='/images/profile_pic.JPEG' />
       </ImgWrap>

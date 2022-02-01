@@ -3,7 +3,7 @@ import { ResumeConstainer, TextWrap, PDFwrap, Button, BtnContainer, PDFresume } 
 
 const Resume = () => {
   return (
-    <ResumeConstainer>
+    <ResumeConstainer id='resume'>
       <p style={{ fontSize: "32px", fontWeight: "900" }}>Resume</p>
       <PDFwrap>
         <PDFresume src='/images/Yueming_Liu_CV.pdf' />
