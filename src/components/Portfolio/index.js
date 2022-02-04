@@ -1,5 +1,5 @@
 import React from 'react';
-import { PortfolioContainer, ProjectContainer, ProjectDetails, ProjectImg, ProjectsGrid, ProjectName, ProjectDescription } from './PortfolioElements';
+import { PortfolioContainer, ProjectContainer, ProjectDetails, ProjectImg, ProjectsGrid, ProjectName, ProjectDescription, InternalLink } from './PortfolioElements';
 import { animateScroll as Scroll } from 'react-scroll';
 import { Projects } from './ProjectData';
 
@@ -22,18 +22,23 @@ const Portfolio = () => {
               color={item.color}
               hasLink={item.hasLink}
               href={item.Link}
+              to={item.internalLink}
               target="_blank"
               key={item.id}>
+
               <ProjectDetails>
-                <ProjectName font={item.font} color={item.color}>
-                  {item.name}
-                </ProjectName>
-                <ProjectDescription
-                  font={item.font}
-                  color={item.color}>
-                  {item.text}
-                </ProjectDescription>
+                <div>
+                  <ProjectName font={item.font} color={item.color}>
+                    {item.name}
+                  </ProjectName>
+                  <ProjectDescription
+                    font={item.font}
+                    color={item.color}>
+                    {item.text}
+                  </ProjectDescription>
+                </div>
               </ProjectDetails>
+
               <ProjectImg src={item.img} />
             </ProjectContainer>
           ))}

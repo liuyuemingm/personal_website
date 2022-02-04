@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const PortfolioContainer = styled.div`
 background: #1E1D20;
@@ -32,20 +33,25 @@ width: fill-available;
 height: fill-available;
 text-align: center;
 line-height: 1.25rem;
+display: flex;
+align-items: center;
+padding: 5px 5px 15px;
+justify-content: center;
+align-items: center;
+background: black;
 `
 
 export const ProjectName = styled.div`
 font-family: ${props => props.font};
 color: ${props => props.color};
 font-size: 18px;
-padding: 15px 10px 10px;
+padding: 10px 5px 10px;
 `
 
 export const ProjectDescription = styled.div`
 font-family: ${props => props.font};
 color: ${props => props.color};
 /* font-size: 14px; */
-padding: 5px;
 `
 
 export const ProjectImg = styled.img`
@@ -60,6 +66,7 @@ width: 240px;
 padding: 0px;
 margin: 10px auto 10px;
 border: solid;
+border-width: 5px;
 color: ${props => props.color};
 background-image: ${props => props.img};
 transition: 0.3s;
@@ -72,7 +79,7 @@ transition: 0.3s;
 }
 
 &:hover ${ProjectImg} {
-opacity: 8%;
+opacity: 15%;
 transition: 0.3s;
 cursor: ${props => (props.hasLink ? "pointer" : "default")};
 }
@@ -111,4 +118,9 @@ cursor: ${props => (props.hasLink ? "pointer" : "default")};
 }
 `
 
-
+export const InternalLink = styled(Link)`
+text-decoration: none;
+`
+export const ExternalLink = styled.a`
+text-decoration: none;
+`

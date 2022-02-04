@@ -18,13 +18,31 @@ const Navbar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to='about' smooth={true} duration={500} spy={true} exact="true" offset={-80}>About</NavLinks>
+              <NavLinks
+                to='about'
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}>About</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='resume' smooth={true} duration={500} spy={true} exact="true" offset={-80}>Resume</NavLinks>
+              <NavLinks
+                to='resume'
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}>Resume</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='portfolio' smooth={true} duration={500} spy={true} exact="true" offset={-80}>Porfolio</NavLinks>
+              <NavLinks
+                to='portfolio'
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}>Porfolio</NavLinks>
             </NavItem>
           </NavMenu>
         </NavbarContainer>

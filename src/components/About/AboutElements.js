@@ -86,7 +86,6 @@ export const SkillListItems = styled.ul`
 margin: 15px 0 20px 30px;
 min-height: 300px;
 height: fit-content;
-color: sandybrown;
 text-align: left;
 line-height: 1.75;
 `

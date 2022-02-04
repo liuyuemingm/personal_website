@@ -21,7 +21,7 @@ const About = () => {
                 dedicated towards developing a new form of travel. I'm a tutor-on-call
                 at Cornell Engineering Learning Initiative for physics, math, and statics.
                 I'm a member of Ring of Steel: Ithaca. We are a theatrical combat and we
-                play with sowrds! </p></div>
+                play with swords! </p></div>
           </AboutMe>
         </AboutMeContainer>
         <CompSciContainer>

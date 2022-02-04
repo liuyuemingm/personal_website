@@ -41,7 +41,7 @@ export const Projects = [
   {
     id: 5,
     name: "Hyperloop",
-    img: "/images/portfolio/hyperloop.png",
+    img: "/images/portfolio/train.jpg",
     text: "A hyperloop train pod design by Cornell Hyperloop Project Team. ",
     hasLink: true,
     Link: "https://hyperloop.cornell.edu/",
@@ -59,6 +59,17 @@ export const Projects = [
   },
   {
     id: 7,
+    name: "CAD collection",
+    img: "/images/portfolio/peeler.jpg",
+    text: "",
+    hasLink: true,
+    hasInternalLink: true,
+    internalLink: "/CADcollection",
+    color: "#58A5FF",
+    font: "initial",
+  },
+  {
+    id: 8,
     name: "Art Collection",
     img: "/images/portfolio/arts.png",
     text: "",

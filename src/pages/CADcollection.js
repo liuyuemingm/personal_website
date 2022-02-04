@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import About from '../components/About';
 import Footer from '../components/Footer';
 import Navbar from '../components/NavBar';
@@ -8,25 +7,17 @@ import Profile from '../components/Profile';
 import Resume from '../components/Resume';
 import Sidebar from '../components/Sidebar';
 
-const Home = () => {
+const CADcollection = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggle = () => {
     setIsOpen(!isOpen)
   }
 
-  return (
-    <>
-      <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={toggle} />
-      <Link to="./CADcollection">Hithere</Link>
-      <Profile />
-      <About />
-      <Resume />
-      <Portfolio />
-      <Footer />
-    </>
-  );
+  return (<>
+    <h1> CAD COLLECTION</h1>
+  </>);
 };
 
-export default Home;
+export default CADcollection;
+
