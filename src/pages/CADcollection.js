@@ -1,21 +1,12 @@
 import React, { useState } from 'react';
-import About from '../components/About';
+import CADs from '../components/CADs';
 import Footer from '../components/Footer';
-import Navbar from '../components/NavBar';
-import Portfolio from '../components/Portfolio';
-import Profile from '../components/Profile';
-import Resume from '../components/Resume';
-import Sidebar from '../components/Sidebar';
+import NavSimple from '../components/NavSimple';
 
 const CADcollection = () => {
-  const [isOpen, setIsOpen] = useState(false)
-
-  const toggle = () => {
-    setIsOpen(!isOpen)
-  }
-
   return (<>
-    <h1> CAD COLLECTION</h1>
+    <NavSimple />
+    <CADs />
   </>);
 };
 

@@ -60,7 +60,7 @@ transform: translate(0,-100%);
 z-index: -1;
 `
 
-export const ProjectContainer = styled.a`
+export const ProjectContainer = styled.div`
 height: 240px;
 width: 240px;
 padding: 0px;

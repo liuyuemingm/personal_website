@@ -19,7 +19,6 @@ const Home = () => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
-      <Link to="./CADcollection">Hithere</Link>
       <Profile />
       <About />
       <Resume />
