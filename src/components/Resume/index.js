@@ -9,7 +9,7 @@ const Resume = () => {
         <PDFresume src='/images/Yueming_Liu_CV.pdf' />
       </PDFwrap>
       <BtnContainer>
-        <Button href='/images/Yueming_Liu_CV.pdf' target="_blank">Open file</Button>
+        <Button href='/images/Yueming_Liu_Cornell_24.pdf' target="_blank">Open file</Button>
       </BtnContainer>
     </ResumeConstainer >
   );
