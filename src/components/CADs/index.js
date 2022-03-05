@@ -4,7 +4,18 @@ import { CADConstainer, ImgWrap, Img, TextWrap, InnerTextWrap, BtnContainer, But
 const CADs = () => {
   return (
     <div>
-      <CADConstainer>
+
+      <CADConstainer >
+        <ImgWrap>
+          <Img src='/images/CAD/peeler.jpg' />
+        </ImgWrap>
+        <TextWrap>
+          Fruit Peeler
+          <p>_</p>
+          <p style={{ fontSize: "18px", fontWeight: "500" }}>Kitchen object modeled with Fusion 360. </p>
+        </TextWrap>
+      </CADConstainer >
+      <CADConstainer id='home'>
         <ImgWrap>
           <Img src='/images/CAD/Reuleaux.jpg' />
         </ImgWrap>
@@ -21,16 +32,6 @@ const CADs = () => {
         </TextWrap>
       </CADConstainer >
 
-      <CADConstainer id='home'>
-        <ImgWrap>
-          <Img src='/images/CAD/peeler.jpg' />
-        </ImgWrap>
-        <TextWrap>
-          Fruit Peeler
-          <p>_</p>
-          <p style={{ fontSize: "18px", fontWeight: "500" }}>Kitchen object modeled with Fusion 360. </p>
-        </TextWrap>
-      </CADConstainer >
     </div>
 
   );
