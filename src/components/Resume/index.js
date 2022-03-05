@@ -6,7 +6,7 @@ const Resume = () => {
     <ResumeConstainer id='resume'>
       <p style={{ fontSize: "32px", fontWeight: "900" }}>Resume</p>
       <PDFwrap>
-        <PDFresume src='/images/Yueming_Liu_CV.pdf' />
+        <PDFresume src='/images/Yueming_Liu_Cornell_24.pdf' />
       </PDFwrap>
       <BtnContainer>
         <Button href='/images/Yueming_Liu_Cornell_24.pdf' target="_blank">Open file</Button>
