@@ -21,7 +21,7 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <Profile />
       <About />
-      <Portfolio />
+      <Portfolio id="portfolio" />
       <Footer />
     </>
   );

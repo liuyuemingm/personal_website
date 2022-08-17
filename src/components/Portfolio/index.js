@@ -20,8 +20,7 @@ const Portfolio = () => {
 
                 {item.hasInternalLink ?
                   <InternalLink
-                    to={item.dest}
-                    smooth="true">
+                    to={item.dest}>
                     <ProjectDetails>
                       <div>
                         <ProjectName font={item.font} color={item.color}>

@@ -76,7 +76,7 @@ height: 100%;
 cursor: pointer;
 
 &.active {
-  /* border-bottom: 3px solid ; */
+  border-bottom: 3px solid ;
 }
 `;
 

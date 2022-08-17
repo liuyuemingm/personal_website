@@ -22,7 +22,7 @@ grid-area: imgwrap;
 padding: 30px 20px 20px;
 max-height: min-content;
 text-align: center;
-max-width: 100vw;
+max-width: 50vw;
 
 @media screen and (max-width: 768px){
   padding: 0px;
