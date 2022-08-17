@@ -60,7 +60,7 @@ const Portfolio = () => {
             ))}
         </ProjectsGrid>
 
-        <p style={{ fontSize: "20px", fontWeight: "300", margin: "30px 0 10px", color: "white", fontFamily: "monospace", letterSpacing: "-1px" }}> Games & Websites & Coding </p>
+        <p style={{ fontSize: "20px", fontWeight: "300", margin: "30px 0 10px", color: "white", fontFamily: "monospace", letterSpacing: "-1px" }}> Games & Websites </p>
         <ProjectsGrid>
           {
             GameWeb.map(item => (

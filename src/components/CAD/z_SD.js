@@ -4,7 +4,7 @@ const SD = () => {
 
   return (
     <>
-      <div id='SD' style={{ cbackground: "#131211", height: "1200px" }}>
+      <div id='SD' style={{ background: "#131211", height: "1200px" }}>
         <ProjectConstainer>
           Sword Design
         </ProjectConstainer>

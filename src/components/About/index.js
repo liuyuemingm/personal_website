@@ -17,12 +17,12 @@ const About = () => {
               <p>I am an earnest learner and a self-motivated explorer. I'm
                 constantly looking out to experience new things and challenge myself. </p></div>
             <div style={{ marginBottom: "15px" }}>
-              <p>I'm currently a member of the Cornell <bf style={{ color: "#e6b4ff", fontWeight: "900" }}>Hyperloop</bf> Engineering
-                Project team. We design and build Hyperloop <bf style={{ color: "#e6b4ff", fontWeight: "900" }}>train pods</bf> that are
+              <p>I'm currently a member of the Cornell <bf style={{ color: "#e6b4ff", fontWeight: "300" }}>Hyperloop</bf> Engineering
+                Project team. We design and build Hyperloop <bf style={{ color: "#e6b4ff", fontWeight: "300" }}>train pods</bf> that are
                 dedicated towards developing a new form of travel. I'm a TA and tutor-on-call
-                at Cornell Engineering Learning Initiative for <bf style={{ color: "#e6b4ff", fontWeight: "900" }}>physics</bf>,
-                <bf style={{ color: "#e6b4ff", fontWeight: "900" }}> math</bf>, and <bf style={{ color: "#e6b4ff", fontWeight: "900" }}>engineering</bf>.
-                I am the president of Ring of Steel: Ithaca. We are a <bf style={{ color: "#e6b4ff", fontWeight: "900" }}>theatrical combat</bf> troupe and we
+                at Cornell Engineering Learning Initiative for <bf style={{ color: "#e6b4ff", fontWeight: "300" }}>physics</bf>,
+                <bf style={{ color: "#e6b4ff", fontWeight: "300" }}> math</bf>, and <bf style={{ color: "#e6b4ff", fontWeight: "300" }}>engineering</bf>.
+                I am the president of Ring of Steel: Ithaca. We are a <bf style={{ color: "#e6b4ff", fontWeight: "300" }}>theatrical combat</bf> troupe and we
                 play with swords! </p></div>
           </AboutMe>
         </AboutMeContainer>
