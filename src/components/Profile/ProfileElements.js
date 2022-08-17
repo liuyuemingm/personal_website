@@ -8,7 +8,7 @@ max-height: max-content;
 display: grid;
 grid-template-areas: "imgwrap textwrap";
 @media screen and (max-width: 768px) {
-  grid-template-areas: "textwrap""imgwrap";
+  grid-template-areas: "textwrap" "imgwrap";
 }
 
 @media screen and (max-width: 500px){

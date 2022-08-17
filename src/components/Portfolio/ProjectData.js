@@ -1,4 +1,74 @@
-export const Projects = [
+export const EngineeringResearch = [
+
+  {
+    id: 1,
+    name: "Hyperloop",
+    img: "/images/portfolio/train.jpg",
+    text: "A hyperloop train pod design by Cornell Hyperloop Project Team. ",
+    hasLink: true,
+    Link: "https://hyperloop.cornell.edu/",
+    color: "#58A5FF",
+    font: "initial",
+  },
+  {
+    id: 2,
+    name: "Organic Robotics Lab",
+    img: "/images/portfolio/peeler.jpg",
+    text: "",
+    hasLink: true,
+    hasInternalLink: true,
+    dest: "/CADcollection#start",
+    color: "#58A5FF",
+    font: "initial",
+  },
+  {
+    id: 3,
+    name: "Water Pump",
+    img: "/images/portfolio/peeler.jpg",
+    text: "",
+    hasLink: true,
+    hasInternalLink: true,
+    dest: "/CADcollection#WP",
+    color: "#58A5FF",
+    font: "initial",
+  },
+  {
+    id: 4,
+    name: "Music Sheet Turner",
+    img: "/images/portfolio/peeler.jpg",
+    text: "",
+    hasLink: true,
+    hasInternalLink: true,
+    dest: "/CADcollection#MST",
+    color: "#58A5FF",
+    font: "initial",
+  },
+  {
+    id: 5,
+    name: "Reuleaux Machine",
+    img: "/images/portfolio/peeler.jpg",
+    text: "",
+    hasLink: true,
+    hasInternalLink: true,
+    dest: "/CADcollection#RM",
+    color: "#58A5FF",
+    font: "initial",
+  },
+  {
+    id: 6,
+    name: "Fruit Peeler",
+    img: "/images/portfolio/peeler.jpg",
+    text: "",
+    hasLink: true,
+    hasInternalLink: true,
+    dest: "/CADcollection/#FP",
+    color: "#58A5FF",
+    font: "initial",
+  },
+]
+
+
+export const GameWeb = [
   {
     id: 1,
     name: "Seven-Days",
@@ -9,17 +79,9 @@ export const Projects = [
     color: "white",
     font: "monospace",
   },
+
   {
     id: 2,
-    name: "Lab Assist",
-    img: "/images/portfolio/lab_assist.png",
-    text: "A mobile app for laboratory experiment planning and project collaboration.  ",
-    hasLink: false,
-    color: "white",
-    font: "monospace",
-  },
-  {
-    id: 3,
     name: "Ring Ithaca",
     img: "/images/portfolio/ring_ithaca.png",
     text: "Website for the Cornell Club Ring of Steel. ",
@@ -29,7 +91,7 @@ export const Projects = [
     font: "monospace",
   },
   {
-    id: 4,
+    id: 3,
     name: "SomniPhobia",
     img: "/images/portfolio/somniphobia.JPG",
     text: "A puzzle platformer developed by a team of students at Cornell Game Design Initiative. ",
@@ -38,36 +100,10 @@ export const Projects = [
     color: "white",
     font: "monospace",
   },
-  {
-    id: 5,
-    name: "Hyperloop",
-    img: "/images/portfolio/train.jpg",
-    text: "A hyperloop train pod design by Cornell Hyperloop Project Team. ",
-    hasLink: true,
-    Link: "https://hyperloop.cornell.edu/",
-    color: "#58A5FF",
-    font: "initial",
-  },
-  {
-    id: 6,
-    name: "Sword Design",
-    img: "/images/portfolio/sword.jpg",
-    text: "An aesthetic sword design, made with CAD, laser cutting, and 3D printing. ",
-    hasLink: false,
-    color: "#58A5FF",
-    font: "initial",
-  },
-  {
-    id: 7,
-    name: "CAD collection",
-    img: "/images/portfolio/peeler.jpg",
-    text: "",
-    hasLink: true,
-    hasInternalLink: true,
-    internalLink: "/CADcollection",
-    color: "#58A5FF",
-    font: "initial",
-  },
+]
+
+
+export const ArtOther = [
   {
     id: 8,
     name: "Art Collection",
@@ -78,6 +114,14 @@ export const Projects = [
     color: "palevioletred",
     font: "Charmonman",
   },
-
-
+  {
+    id: 6,
+    name: "Sword Design",
+    img: "/images/portfolio/sword.jpg",
+    text: "An aesthetic sword design, made with CAD, laser cutting, and 3D printing. ",
+    hasInternalLink: true,
+    dest: "/CADcollection/#FP",
+    color: "palevioletred",
+    font: "Charmonman",
+  },
 ]

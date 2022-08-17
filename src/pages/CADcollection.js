@@ -5,7 +5,7 @@ import NavSimple from '../components/NavSimple';
 
 const CADcollection = () => {
   return (<>
-    <NavSimple />
+    {/* <NavSimple /> */}
     <CADs />
   </>);
 };

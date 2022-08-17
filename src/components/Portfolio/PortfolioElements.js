@@ -1,8 +1,9 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 export const PortfolioContainer = styled.div`
-background: #1E1D20;
+background: #131211;
 padding: 2% 4%;
 min-height: calc(100vh - 80px);
 max-height: max-content;

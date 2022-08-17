@@ -21,7 +21,6 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <Profile />
       <About />
-      <Resume />
       <Portfolio />
       <Footer />
     </>

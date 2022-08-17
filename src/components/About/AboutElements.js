@@ -6,20 +6,24 @@ padding: 2% 4%;
 min-height: calc(100vh - 80px);
 max-height: max-content;
 display: grid;
-grid-template-areas: "about about about" " cs meche art";
+grid-template-areas: "about about about" " meche cs art";
 @media screen and (max-width: 768px) {
-  grid-template-areas: "about about" " cs meche"" art art";
+  grid-template-areas: "about about" " meche cs " " art art";
 }
 @media screen and (max-width: 350px) {
-  grid-template-areas: "about" "cs" "meche" "art";
+  grid-template-areas: "about" "meche" "cs" "art";
 }
 `
 
 export const AboutMeContainer = styled.div`
 grid-area: about;
 /* background: red; */
-padding: 20px;
+padding: 20px 80px;
 text-align: center;
+
+@media screen and (max-width: 500){
+  padding: 20px;
+}
 `
 export const CompSciContainer = styled.div`
 grid-area: cs;

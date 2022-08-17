@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const CADConstainer = styled.div`
-background: #131211;
+background: ${props => props.color};
 padding: 2% 8%;
-min-height: calc(100vh - 80px);
+min-height: 100vh;
 max-height: max-content;
 display: grid;
 grid-template-areas: "imgwrap textwrap";

@@ -18,14 +18,15 @@ const Profile = () => {
         </InnerTextWrap>
         <p> _</p>
         <div style={{ fontSize: "16px", fontWeight: "normal", opacity: "80%" }}>
-          <p > Sophomore studying at Cornell University,</p>
-          <p > Mechanical team member at Cornell Hyperloop,</p>
-          <p > Vice president of Ring of Steel: Ithaca.</p>
+          <p > Junior studying at Cornell University,</p>
+          <p > Mechanical team member of Cornell Hyperloop,</p>
+          <p > Research Intern at Organic Robotics Lab,</p>
+          <p > President of Cornell Ring of Steel: Ithaca.</p>
         </div>
         <BtnContainer>
           <Button href='mailto: yl3436@cornell.edu' >Email me</Button>
-          <Button href='https://github.com/liuyuemingm' target="_blank">GitHub</Button>
           <Button href='https://www.linkedin.com/in/yueming-liu-9aba84196/' target="_blank">LinkedIn</Button>
+          <Button href='https://github.com/liuyuemingm' target="_blank">GitHub</Button>
         </BtnContainer>
       </TextWrap>
     </ProfileConstainer >
