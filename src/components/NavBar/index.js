@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa'
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem } from './NavbarElements';
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem, NavLinksH } from './NavbarElements';
 import { animateScroll as Scroll } from 'react-scroll';
 const Navbar = ({ toggle }) => {
 
@@ -34,6 +34,9 @@ const Navbar = ({ toggle }) => {
                 spy={true}
                 exact="true"
                 offset={-80}>Portfolio</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinksH to='/CADcollection#WP'>CADs</NavLinksH>
             </NavItem>
           </NavMenu>
         </NavbarContainer>
