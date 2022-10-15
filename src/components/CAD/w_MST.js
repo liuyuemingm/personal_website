@@ -12,6 +12,7 @@ font-size: 20px;
 font-weight: 100;
 font-family: sans-serif;
 grid-gap: 40px;
+
 `
 
 const Text_1 = styled.div`
@@ -60,7 +61,7 @@ const MST = () => {
 
   return (
     <>
-      <div id='MST' style={{ background: "#1E1D20", height: "1250px" }}>
+      <div id='MST' style={{ background: "#1E1D20", height: "min-content" }}>
         <ProjectConstainer>
           Music Sheet Turner
           <Details>

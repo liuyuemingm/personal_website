@@ -12,22 +12,73 @@ font-size: 20px;
 font-weight: 100;
 font-family: sans-serif;
 grid-gap: 40px;
+
+@media screen and (max-width: 1290px){
+  grid-template-columns: 400px 400px;
+grid-template-rows: 125px 290px;
+grid-gap:30px;
+}
+
+@media screen and (max-width: 1080px){
+  grid-template-columns: 350px 350px;
+grid-template-rows: 160px 260px;
+}
+@media screen and (max-width: 950px){
+  grid-template-columns: 300px 300px;
+grid-template-rows: 180px 220px;
+}
+@media screen and (max-width: 850px){
+  grid-template-columns: 450px;
+grid-template-rows: 505px 110px 330px;
+}
+
+@media screen and (max-width: 650px){
+  grid-template-columns: 350px;
+grid-template-rows: 390px 160px 260px;
+}
+
+@media screen and (max-width: 520px){
+  grid-template-columns: 300px;
+grid-template-rows: 340px 180px 220px;
+}
 `
 
 const Img_1 = styled.img`
 width: 450px;
 grid-column: 1;
 grid-row: 1 /3;
+@media screen and (max-width: 1290px){
+width: 100%;
+}
+
+@media screen and (max-width: 850px){
+  grid-row: 1;
+}
 `
 const Img_2 = styled.img`
 height: 395px;
 grid-column: 2;
 grid-row: 2;
+
+@media screen and (max-width: 1290px){
+width: 100%;
+height: auto;
+}
+
+@media screen and (max-width: 850px){
+  grid-row: 3;
+  grid-column: 1;
+}
 `
 
 const Text_1 = styled.div`
 grid-column: 2;
 grid-row: 1 / 2;
+
+@media screen and (max-width: 850px){
+  grid-row: 2;
+  grid-column: 1;
+}
 `
 
 const FP = () => {
