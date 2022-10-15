@@ -53,6 +53,12 @@ grid-gap: 40px;
   grid-template-columns: 250px;
   grid-template-rows: 400px 270px 140px 140px 210px;
 }
+
+@media screen and (max-width: 410px){
+  grid-template-columns: 220px;
+  grid-template-rows: 350px 210px 120px 125px 130px;
+  font-size: 16px;
+}
 `
 
 const Details1 = styled.div`
@@ -96,6 +102,12 @@ grid-gap: 40px;
   grid-template-columns: 250px;
   grid-template-rows: 200px 200px 200px;
   grid-gap: 30px;
+}
+
+@media screen and (max-width: 410px){
+  grid-template-columns: 220px;
+  grid-template-rows: 160px 160px 160px;
+  font-size: 16px;
 }
 `
 

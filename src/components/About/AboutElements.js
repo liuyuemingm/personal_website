@@ -21,9 +21,8 @@ grid-area: about;
 padding: 20px 80px;
 text-align: center;
 
-@media screen and (max-width: 500px){
-  padding: 20px 20px;
-  margin:0;
+@media screen and (max-width: 550px){
+  padding: 20px 15px;
 }
 `
 export const CompSciContainer = styled.div`
@@ -36,9 +35,6 @@ left: auto;
 right: auto;
 text-align: center;
 
-@media screen and (max-width: 500px){
-  padding: 50px;
-}
 `
 
 export const MechEContainer = styled.div`
@@ -47,9 +43,6 @@ grid-area: meche;
 padding: 20px;
 text-align: center;
 
-@media screen and (max-width: 500px){
-  padding: 50px;
-}
 `
 
 export const ArtContainer = styled.div`
@@ -62,10 +55,6 @@ text-align: left;
 padding: 20px 20px 0;
 line-height: 1.75;
 
-@media screen and (max-width: 500px){
-  padding: 0;
-  margin: 0;
-}
 `
 
 export const Skills = styled.div`

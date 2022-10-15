@@ -59,6 +59,16 @@ grid-template-rows: 160px 735px 265px 265px 700px;
 grid-template-columns: 250px;
 grid-template-rows: 230px 530px 190px 190px 500px;
 }
+@media screen and (max-width: 470px){
+  grid-template-columns: 250px;
+grid-template-rows: 150px 525px 190px 190px 500px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 410px){
+  grid-template-columns: 220px;
+grid-template-rows: 200px 460px 165px 165px 430px;
+}
 `
 
 const Text_1 = styled.div`

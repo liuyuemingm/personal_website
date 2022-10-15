@@ -53,6 +53,18 @@ grid-template-columns: 300px;
 grid-template-rows: 160px 190px 250px 24px 200px 200px 210px 110px;
 grid-gap: 30px;
 }
+
+@media screen and (max-width: 470px){
+  grid-template-columns: 250px;
+  grid-template-rows: 130px 160px 170px 55px 160px 160px 150px 100px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 410px){
+  grid-template-columns: 220px;
+  grid-template-rows: 170px 140px 250px 55px 140px 140px 190px 85px;
+}
+
 `
 
 const Text_1 = styled.div`
@@ -195,6 +207,10 @@ grid-row: 6;
 @media screen and (max-width: 520px){
   height: 110px;
 }
+
+@media screen and (max-width: 470px){
+  height: 100%;
+}
 `
 const Img_5 = styled.div`
 margin: 40px 0px 0px;
@@ -214,6 +230,17 @@ height: 350px;
   width: 300px;
   height: 220px;
 }
+
+@media screen and (max-width: 470px){
+  width: 250px;
+  height: 180px;
+}
+
+@media screen and (max-width: 410px){
+  width: 220px;
+  height: 160px;
+}
+
 `
 
 const MST = () => {

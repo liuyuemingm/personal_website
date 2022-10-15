@@ -41,6 +41,17 @@ grid-template-rows: 390px 160px 260px;
   grid-template-columns: 300px;
 grid-template-rows: 340px 180px 220px;
 }
+
+@media screen and (max-width: 470px){
+  grid-template-columns: 250px;
+grid-template-rows: 280px 130px 190px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 410px){
+  grid-template-columns: 220px;
+grid-template-rows: 250px 170px 160px;
+}
 `
 
 const Img_1 = styled.img`
