@@ -10,7 +10,7 @@ justify-content:center;
 align-items: center;
 font-size:1rem;
 position:fixed;
-left:0;
+right:0;
 top: 20px;
 z-index:10;
 text-align: center;

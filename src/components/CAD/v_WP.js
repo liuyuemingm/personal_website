@@ -13,7 +13,7 @@ font-weight: 100;
 font-family: sans-serif;
 grid-gap: 40px;
 
-@media screen and (max-width: 1450px){
+@media screen and (max-width: 1455px){
   grid-template-columns: 450px 550px;
   grid-template-rows: 140px 90px 90px 370px;
   grid-gap: 30px;

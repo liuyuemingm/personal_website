@@ -7,7 +7,7 @@ const Details = styled.div`
 margin-top: 20px;
 display: grid;
 grid-template-columns: auto auto auto;
-grid-template-rows: 45px 70px 24px 230px 45px 210px;
+grid-template-rows: 45px 70px 24px 230px 45px 340px;
 font-size: 20px;
 font-weight: 100;
 font-family: sans-serif;
@@ -120,7 +120,7 @@ grid-row: 5;
 grid-row: 6;
 }
 
-@media screen and (max-width: 1450px){
+@media screen and (max-width: 850px){
   grid-column: 1;
 grid-row: 7;
 }
@@ -185,8 +185,8 @@ grid-row: 4 /5;
 }
 `
 const Img_4 = styled.img`
-height: 210px;
-grid-column: 1/3;
+grid-column: 1/4;
+width: 100%;
 grid-row: 6;
 @media screen and (max-width: 1450px){
   grid-column: 1/3;
@@ -195,7 +195,7 @@ grid-row: 6;
   height: auto;
 }
 
-@media screen and (max-width: 1450px){
+@media screen and (max-width: 850px){
   grid-column: 1;
   grid-row: 8;
 }

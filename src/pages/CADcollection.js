@@ -13,7 +13,7 @@ const CADcollection = () => {
   return (
     <div>
       <SideScroller />
-      <div style={{ marginLeft: "12%" }}>
+      <div style={{ marginRight: "12%" }}>
         <WP />
         <MST />
         <RM />
