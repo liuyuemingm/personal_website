@@ -24,7 +24,28 @@ grid-template-rows: 140px 165px 225px 300px;
 
 @media screen and (max-width: 1080px){
 grid-template-columns: 350px 350px;
-grid-template-rows: 140px 165px 225px 300px;
+grid-template-rows: 140px 125px 20px 200px 200px;
+}
+
+@media screen and (max-width: 960px){
+grid-template-columns: 300px 300px;
+grid-template-rows: 180px 40px 150px 40px 170px;
+}
+
+@media screen and (max-width: 850px){
+grid-template-columns: 450px;
+grid-template-rows: 390px 110px 340px 340px 140px 250px;
+grid-gap: 30px;
+}
+
+@media screen and (max-width: 650px){
+grid-template-columns: 350px;
+grid-template-rows: 300px 135px 260px 260px 180px 200px;
+}
+
+@media screen and (max-width: 520px){
+grid-template-columns: 300px;
+grid-template-rows: 260px 180px 225px 225px 230px 170px;
 }
 `
 const Img_1 = styled.img`
@@ -39,6 +60,10 @@ width: 100%;
 @media screen and (max-width: 1200px){
 grid-row: 1 / 3;
 }
+
+@media screen and (max-width: 850px){
+grid-row: 1;
+}
 `
 const Img_2 = styled.img`
 width: 400px;
@@ -52,6 +77,14 @@ width: 100%;
 @media screen and (max-width: 1200px){
 grid-row: 3/4;
 }
+
+@media screen and (max-width: 1080px){
+grid-row: 5;
+}
+
+@media screen and (max-width: 850px){
+grid-row: 6;
+}
 `
 const Img_3 = styled.img`
 width: 100%;
@@ -60,6 +93,15 @@ grid-row: 3;
 
 @media screen and (max-width: 1200px){
 grid-column: 2;
+grid-row: 3;
+}
+
+@media screen and (max-width: 1080px){
+grid-row: 3;
+grid-column: 1;
+}
+
+@media screen and (max-width: 850px){
 grid-row: 3;
 }
 `
@@ -72,6 +114,16 @@ grid-row: 3;
 grid-column: 1;
 grid-row: 4;
 }
+
+@media screen and (max-width: 1080px){
+grid-column: 2;
+grid-row: 4;
+}
+
+@media screen and (max-width: 850px){
+grid-row: 4;
+grid-column: 1;
+}
 `
 const Text_1 = styled.div`
 grid-column: 2/4;
@@ -81,6 +133,11 @@ grid-row: 1;
 grid-column: 2/3;
 grid-row: 1;
 }
+
+@media screen and (max-width: 850px){
+grid-row: 2;
+grid-column: 1;
+}
 `
 const Text_2 = styled.div`
 grid-column: 2/4;
@@ -89,6 +146,11 @@ grid-row: 2;
 @media screen and (max-width: 1200px){
 grid-column: 2/3;
 grid-row: 2;
+}
+
+@media screen and (max-width: 850px){
+grid-row: 5;
+grid-column: 1;
 }
 `
 const RM = () => {
