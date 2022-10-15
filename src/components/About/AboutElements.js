@@ -21,8 +21,9 @@ grid-area: about;
 padding: 20px 80px;
 text-align: center;
 
-@media screen and (max-width: 500){
-  padding: 20px;
+@media screen and (max-width: 500px){
+  padding: 20px 20px;
+  margin:0;
 }
 `
 export const CompSciContainer = styled.div`
@@ -35,7 +36,7 @@ left: auto;
 right: auto;
 text-align: center;
 
-@media screen and (max-width: 500){
+@media screen and (max-width: 500px){
   padding: 50px;
 }
 `
@@ -46,7 +47,7 @@ grid-area: meche;
 padding: 20px;
 text-align: center;
 
-@media screen and (max-width: 500){
+@media screen and (max-width: 500px){
   padding: 50px;
 }
 `
@@ -60,6 +61,11 @@ export const AboutMe = styled.div`
 text-align: left;
 padding: 20px 20px 0;
 line-height: 1.75;
+
+@media screen and (max-width: 500px){
+  padding: 0;
+  margin: 0;
+}
 `
 
 export const Skills = styled.div`

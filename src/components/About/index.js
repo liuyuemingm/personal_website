@@ -32,6 +32,7 @@ const About = () => {
               Engineering
             </SkillType>
             <SkillListItems>
+              <li>Arduino</li>
               <li>Solidworks</li>
               <li>Fusion 360</li>
               <li>Machining</li>

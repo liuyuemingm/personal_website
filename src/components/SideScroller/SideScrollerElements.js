@@ -3,7 +3,7 @@ import { HashLink as LinkR } from "react-router-hash-link";
 import { Link as LinkS } from 'react-scroll'
 
 export const SideContainer = styled.div`
-height: 60%;
+height: 500px;
 width: 12%;
 display:grid;
 justify-content:center;
@@ -11,7 +11,7 @@ align-items: center;
 font-size:1rem;
 position:fixed;
 left:0;
-top: 8%;
+top: 20px;
 z-index:10;
 text-align: center;
 justify-items: center;
