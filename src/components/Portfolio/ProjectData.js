@@ -1,6 +1,16 @@
 export const EngineeringResearch = [
 
   {
+    id: 0,
+    name: "Fluid-Mechanical Dissection",
+    img: "/images/portfolio/airfoil.jpg",
+    text: "A video about how the strandbeest works. ",
+    hasLink: true,
+    Link: "https://www.youtube.com/watch?v=-GiVZtnf3kU&t=84s",
+    color: "#58A5FF",
+    font: "initial",
+  },
+  {
     id: 1,
     name: "Hyperloop",
     img: "/images/portfolio/train.jpg",
