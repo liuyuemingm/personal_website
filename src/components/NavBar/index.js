@@ -33,10 +33,10 @@ const Navbar = ({ toggle }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-80}>Portfolio</NavLinks>
+                offset={-80}>Projects</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinksH to='/CADcollection#WP'>CADs</NavLinksH>
+              <NavLinksH to='/CADcollection#WP'>Project Details</NavLinksH>
             </NavItem>
           </NavMenu>
         </NavbarContainer>

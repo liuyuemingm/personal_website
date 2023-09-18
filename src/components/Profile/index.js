@@ -18,10 +18,9 @@ const Profile = () => {
         </InnerTextWrap>
         <p> _</p>
         <div style={{ fontSize: "16px", fontWeight: "normal", opacity: "80%" }}>
-          <p > Junior studying at Cornell University,</p>
-          <p > President of Cornell Ring of Steel: Ithaca.</p>
-          <p > Mechanical team member of Cornell Hyperloop,</p>
-          <p > Research Intern at Organic Robotics Lab,</p>
+          <p > Senior studying at Cornell University,</p>
+          <p > President of Ring of Steel (Teatrical Combat) at Cornell, </p>
+          <p > Mechanical braking team lead of Cornell Hyperloop.</p>
         </div>
         <BtnContainer>
           <Button href='mailto: yl3436@cornell.edu' >Email me</Button>

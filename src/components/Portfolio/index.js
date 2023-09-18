@@ -9,7 +9,7 @@ const Portfolio = () => {
   return (
     <>
       <PortfolioContainer id='portfolio'>
-        <p style={{ fontSize: "32px", fontWeight: "900", margin: "20px 0 30px" }}>Portfolio</p>
+        <p style={{ fontSize: "32px", fontWeight: "900", margin: "20px 0 30px" }}>Projects</p>
         <p style={{ fontSize: "22px", fontWeight: "300", margin: "0 0 10px", color: "#58A5FF", fontFamily: "initial", letterSpacing: ".5px" }}>Engineering & Research </p>
         <ProjectsGrid>
           {

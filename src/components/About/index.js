@@ -9,21 +9,23 @@ const About = () => {
           <AboutMe>
             <p style={{ fontSize: "32px", fontWeight: "700" }}>About me</p>
             <div style={{ marginBottom: "15px" }}>
-              <p> I am a junior at Cornell University, majoring in
-                <bf style={{ color: "#e6b4ff", fontWeight: "900" }}> Mechanical Engineering </bf>
-                and minoring in <bf style={{ color: "#e6b4ff", fontWeight: "900" }}>Computer Science
-                </bf> and <bf style={{ color: "#e6b4ff", fontWeight: "900" }}> Aerospace Engineering</bf>.  </p></div>
+              <p> I am a senior at Cornell University, double majoring in
+                <bf style={{ color: "#ffffff", fontWeight: "900" }}> Mechanical Engineering </bf>
+                and <bf style={{ color: "#ffffff", fontWeight: "900" }}>Computer Science
+                </bf>.  </p></div>
             <div style={{ marginBottom: "15px" }}>
               <p>I am an earnest learner and a self-motivated explorer. I'm
                 constantly looking out to experience new things and challenge myself. </p></div>
             <div style={{ marginBottom: "15px" }}>
-              <p>I'm currently a member of the Cornell <bf style={{ color: "#e6b4ff", fontWeight: "300" }}>Hyperloop</bf> Engineering
-                Project team. We design and build Hyperloop <bf style={{ color: "#e6b4ff", fontWeight: "300" }}>train pods</bf> that are
-                dedicated towards developing a new form of travel. I'm a TA and tutor-on-call
-                at Cornell Engineering Learning Initiative for <bf style={{ color: "#e6b4ff", fontWeight: "300" }}>physics</bf>,
-                <bf style={{ color: "#e6b4ff", fontWeight: "300" }}> math</bf>, and <bf style={{ color: "#e6b4ff", fontWeight: "300" }}>engineering</bf>.
-                I am the president of Ring of Steel: Ithaca. We are a <bf style={{ color: "#e6b4ff", fontWeight: "300" }}>theatrical combat</bf> troupe and we
-                play with swords! </p></div>
+              <p>I interned at <bf style={{ color: "#ffffff", fontWeight: "900" }}> SpaceX </bf>
+                during summer 2023, working on Starship production at Starbase, TX.
+                I'm currently a member of the Cornell <bf style={{ color: "#ffffff", fontWeight: "900" }}>
+                  Hyperloop</bf> Engineering Project team. We design and build Hyperloop train pods that are
+                dedicated towards developing a new form of travel. I'm a
+                <bf style={{ color: "#ffffff", fontWeight: "900" }}> Teaching Assistant</bf> at Cornell Engineering
+                Learning Initiative for upperclassmen engineering courses.
+                I am the president of Ring of Steel: Ithaca. We are a <bf style={{ color: "#ffffff", fontWeight: "900" }}>Theatrical Combat</bf> club and we
+                play and perform with swords! </p></div>
           </AboutMe>
         </AboutMeContainer>
         <MechEContainer>
@@ -32,16 +34,17 @@ const About = () => {
               Engineering
             </SkillType>
             <SkillListItems>
-              <li>Arduino</li>
-              <li>Solidworks</li>
-              <li>Fusion 360</li>
+              <li>CAD (NX, SW, Fusion)</li>
+              <li>Matlab</li>
               <li>Machining</li>
               <li>Woodworking</li>
               <li>3D printing</li>
               <li>Laser cutting</li>
               <li>Ansys analysis</li>
+              <li>Fluids design</li>
               <li>Mechanical Sythesis</li>
               <li>Statics & Dynamics </li>
+
             </SkillListItems>
           </Skills>
         </MechEContainer>
@@ -51,13 +54,15 @@ const About = () => {
               Programming
             </SkillType>
             <SkillListItems>
-              <li>Web Dev</li>
-              <li>App Dev</li>
-              <li>Game Dev</li>
-              <li>React, Android Studio, Unity, Logism</li>
-              <li>Python, Matlab, Java, JavaScript, C#</li>
-              <li>Discrete math, Linear Algebra</li>
-              <li>Circuit design (logisim)</li>
+              <li>Arduino</li>
+              <li>Circuit design (EPlan)</li>
+              <li>Website Developement</li>
+              <li>Game Development</li>
+              <li>React, Unity</li>
+              <li>Python, C, Java</li>
+              <li>JavaScript, C#</li>
+              <li>Algorithm</li>
+              <li>Machine Learning</li>
             </SkillListItems>
           </Skills>
         </CompSciContainer>
@@ -68,15 +73,15 @@ const About = () => {
               Art @ Other
             </SkillType>
             <SkillListItems>
+              <li>Mandarin, French</li>
               <li>Blender 3D modeling</li>
               <li>Digital painting</li>
               <li>2D and 3D animations</li>
               <li>Video editing</li>
               <li>Photography</li>
-              <li>Kalimba</li>
-              <li>Mandarin Chinese</li>
+              <li>Piano, Guitar, Kalimba</li>
               <li>Technical writing</li>
-              <li>Microsoft Office</li>
+              <li>Microsoft Office Suite</li>
             </SkillListItems>
           </Skills>
         </ArtContainer>
