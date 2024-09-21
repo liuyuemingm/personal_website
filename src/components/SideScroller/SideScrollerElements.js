@@ -15,7 +15,7 @@ top: 20px;
 z-index:10;
 text-align: center;
 justify-items: center;
-grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr;
 `;
 
 export const Back = styled(LinkR)`

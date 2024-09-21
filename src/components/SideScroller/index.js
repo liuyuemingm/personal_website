@@ -35,12 +35,6 @@ const SideScroller = () => {
           duration={500}
           spy={true}
           exact="true" />
-
-        <Bubble to='SD'
-          smooth={true}
-          duration={500}
-          spy={true}
-          exact="true" />
       </SideContainer>
 
     </>

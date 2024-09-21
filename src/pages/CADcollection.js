@@ -18,7 +18,6 @@ const CADcollection = () => {
         <MST />
         <RM />
         <FP />
-        <SD />
       </div>
       <Footer />
     </div >
