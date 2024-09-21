@@ -35,9 +35,6 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offset={-80}>Projects</NavLinks>
             </NavItem>
-            <NavItem>
-              <NavLinksH to='/CADcollection#WP'>Project Details</NavLinksH>
-            </NavItem>
           </NavMenu>
         </NavbarContainer>
       </Nav>

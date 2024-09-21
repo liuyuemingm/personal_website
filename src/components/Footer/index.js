@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
       <FootContainer>
-        <div style={{ opacity: "80%" }}>Copyright © 2022 Yueming Liu</div>
+        <div style={{ opacity: "80%" }}>Copyright © 2024 Yueming Liu</div>
       </FootContainer>
     </div>
   );

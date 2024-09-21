@@ -11,7 +11,6 @@ const Sidebar = ({ isOpen, toggle }) => {
         <SidebarMenu>
           <SidebarLink to='about' onClick={toggle}>About</SidebarLink>
           <SidebarLink to='portfolio' onClick={toggle}>Projects</SidebarLink>
-          <SidebarLinkR to='/CADcollection#WP' onClick={toggle}>Project Details</SidebarLinkR>
         </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>

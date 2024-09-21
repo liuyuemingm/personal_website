@@ -6,27 +6,28 @@ const About = () => {
     <>
       <AboutConstainer id='about' >
         <AboutMeContainer>
-          <AboutMe>
-            <p style={{ fontSize: "32px", fontWeight: "700" }}>About me</p>
+        <AboutMe>
+          <p style={{ fontSize: "32px"}}>About me</p>
             <div style={{ marginBottom: "15px" }}>
-              <p> I am a senior at Cornell University, double majoring in
-                <bf style={{ color: "#ffffff", fontWeight: "900" }}> Mechanical Engineering </bf>
-                and <bf style={{ color: "#ffffff", fontWeight: "900" }}>Computer Science
-                </bf>.  </p></div>
+              <p>I am an MEng student in Mechanical Engineering at <span style={{ color: "#ffffff"}}>Cornell University</span>, where I also completed undergraduate degrees in 
+                <span style={{ color: "#ffffff"}}> Mechanical Engineering </span> 
+                and <span style={{ color: "#ffffff"}}> Computer Science</span>.
+              </p>
+            </div>
             <div style={{ marginBottom: "15px" }}>
-              <p>I am an earnest learner and a self-motivated explorer. I'm
-                constantly looking out to experience new things and challenge myself. </p></div>
+              <p>I am a dedicated learner and self-motivated explorer, always seeking new experiences and challenges to push my boundaries.</p>
+            </div>
             <div style={{ marginBottom: "15px" }}>
-              <p>I interned at <bf style={{ color: "#ffffff", fontWeight: "900" }}> SpaceX </bf>
-                during summer 2023, working on Starship production at Starbase, TX.
-                I'm currently a member of the Cornell <bf style={{ color: "#ffffff", fontWeight: "900" }}>
-                  Hyperloop</bf> Engineering Project team. We design and build Hyperloop train pods that are
-                dedicated towards developing a new form of travel. I'm a
-                <bf style={{ color: "#ffffff", fontWeight: "900" }}> Teaching Assistant</bf> at Cornell Engineering
-                Learning Initiative for upperclassmen engineering courses.
-                I am the president of Ring of Steel: Ithaca. We are a <bf style={{ color: "#ffffff", fontWeight: "900" }}>Theatrical Combat</bf> club and we
-                play and perform with swords! </p></div>
-          </AboutMe>
+              <p>In the summers of 2023 and 2024, I interned at 
+                <span style={{ color: "#ffffff" }}> SpaceX</span>, where I <s> blew up stuff around rockets</s> contributed to Starship production and testing at Starbase, TX. 
+                Currently, I am part of Cornell’s 
+                <span style={{ color: "#ffffff"}}> Space Systems Design Studio</span>, redesigning a ChipSat for Sandia National Labs. 
+                My favorite time outside of work is stage combat; I served as the president of
+                <span style={{ color: "#ffffff"}}> Ring of Steel: Ithaca</span>, where we do theatrical combat and perform sword fights!
+              </p>
+            </div>
+        </AboutMe>
+
         </AboutMeContainer>
         <MechEContainer>
           <Skills style={{ color: "#58A5FF" }}>
@@ -34,16 +35,16 @@ const About = () => {
               Engineering
             </SkillType>
             <SkillListItems>
+              <li>Robotics</li>
+              <li>Space Systems</li>
+              <li>Feedback Control</li>
               <li>CAD (NX, SW, Fusion)</li>
-              <li>Matlab</li>
+              <li>Finite Element Analysis</li>
+              <li>Fluids Simulation</li>
+              <li>Mechantronics</li>
               <li>Machining</li>
-              <li>Woodworking</li>
               <li>3D printing</li>
               <li>Laser cutting</li>
-              <li>Ansys analysis</li>
-              <li>Fluids design</li>
-              <li>Mechanical Sythesis</li>
-              <li>Statics & Dynamics </li>
 
             </SkillListItems>
           </Skills>
@@ -54,15 +55,15 @@ const About = () => {
               Programming
             </SkillType>
             <SkillListItems>
-              <li>Arduino</li>
-              <li>Circuit design (EPlan)</li>
+              <li>Embedded Operating Systems</li>
+              <li>Machine Learning</li>
+              <li>Automation</li>
+              <li>Circuit Design (EPlan)</li>
               <li>Website Developement</li>
               <li>Game Development</li>
-              <li>React, Unity</li>
-              <li>Python, C, Java</li>
-              <li>JavaScript, C#</li>
-              <li>Algorithm</li>
-              <li>Machine Learning</li>
+              <li>Matlab, Python, C, Java</li>
+              <li>Algorithms</li>
+              <li>Arduino</li>
             </SkillListItems>
           </Skills>
         </CompSciContainer>
@@ -70,17 +71,18 @@ const About = () => {
         <ArtContainer>
           <Skills style={{ color: "palevioletred" }}>
             <SkillType style={{ color: "palevioletred", fontFamily: "Charmonman" }}>
-              Art @ Other
+              Art & Other
             </SkillType>
             <SkillListItems>
               <li>Mandarin, French</li>
-              <li>Blender 3D modeling</li>
-              <li>Digital painting</li>
+              <li>Digital Painting</li>
+              <li>3D Modeling (Blender)</li>
               <li>2D and 3D animations</li>
-              <li>Video editing</li>
+              <li>Video Editing</li>
               <li>Photography</li>
+              <li>Stage Combat</li>
               <li>Piano, Guitar, Kalimba</li>
-              <li>Technical writing</li>
+              <li>Technical Writing</li>
               <li>Microsoft Office Suite</li>
             </SkillListItems>
           </Skills>
